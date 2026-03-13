@@ -20,4 +20,4 @@
 
 当你需要精确的 CLI/配置细节或提供商集成模式，而不是分步教程时，请使用此参考集合。
 
-添加新的参考/集成文档时，请确保它同时链接到 [../SUMMARY.zh-CN.md](../SUMMARY.zh-CN.md) 和 [../maintainers/docs-inventory.zh-CN.md](../maintainers/docs-inventory.zh-CN.md)。
+添加新的参考/集成文档时，请确保它同时链接到 [../SUMMARY.zh-CN.md](../../../SUMMARY.zh-CN.md) 和 [../maintainers/docs-inventory.zh-CN.md](../maintainers/docs-inventory.zh-CN.md)。

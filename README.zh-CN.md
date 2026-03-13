@@ -61,12 +61,12 @@
 
 <p align="center">
   <strong>场景分流：</strong>
-  <a href="docs/i18n/zh-CN/reference/README.zh-CN.md"">参考手册</a> ·
-  <a href="docs/i18n/zh-CN/ops/README.zh-CN.md"">运维部署</a> ·
-  <a href="docs/i18n/zh-CN/ops/troubleshooting.zh-CN.md"">故障排查</a> ·
-  <a href="docs/i18n/zh-CN/security/README.zh-CN.md"">安全专题</a> ·
-  <a href="docs/i18n/zh-CN/hardware/README.zh-CN.md"">硬件外设</a> ·
-  <a href="docs/i18n/zh-CN/contributing/README.zh-CN.md"">贡献与 CI</a>
+  <a href="docs/i18n/zh-CN/reference/README.zh-CN.md">参考手册</a> ·
+  <a href="docs/i18n/zh-CN/ops/README.zh-CN.md">运维部署</a> ·
+  <a href="docs/i18n/zh-CN/ops/troubleshooting.zh-CN.md">故障排查</a> ·
+  <a href="docs/i18n/zh-CN/security/README.zh-CN.md">安全专题</a> ·
+  <a href="docs/i18n/zh-CN/hardware/README.zh-CN.md">硬件外设</a> ·
+  <a href="docs/i18n/zh-CN/contributing/README.zh-CN.md">贡献与 CI</a>
 </p>
 
 > 本文是对 `README.md` 的人工对齐翻译（强调可读性与准确性，不做逐字直译）。

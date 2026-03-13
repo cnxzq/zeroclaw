@@ -4,7 +4,7 @@
 
 ## 核心政策
 
-- 贡献指南：[../../CONTRIBUTING.md](../../CONTRIBUTING.md)
+- 贡献指南：[../../../../CONTRIBUTING.md](../../../../CONTRIBUTING.md)
 - PR 工作流规则：[./pr-workflow.zh-CN.md](./pr-workflow.zh-CN.md)
 - 评审者手册：[./reviewer-playbook.zh-CN.md](./reviewer-playbook.zh-CN.md)
 - CI 地图和所有权：[./ci-map.zh-CN.md](./ci-map.zh-CN.md)

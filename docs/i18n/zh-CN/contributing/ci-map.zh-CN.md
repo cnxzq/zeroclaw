@@ -2,7 +2,7 @@
 
 本文档解释每个 GitHub 工作流的作用、运行时机以及是否应该阻塞合并。
 
-关于 PR、合并、推送和发布的逐事件交付行为，请参见 [`.github/workflows/master-branch-flow.md`](../../.github/workflows/master-branch-flow.md)。
+关于 PR、合并、推送和发布的逐事件交付行为，请参见 [`.github/workflows/master-branch-flow.md`](../../../../.github/workflows/master-branch-flow.md)。
 
 ## 合并阻塞 vs 可选
 
