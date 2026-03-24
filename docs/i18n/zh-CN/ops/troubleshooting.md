@@ -236,7 +236,7 @@ zeroclaw channel doctor
 
 ## 相关文档
 
-- [operations-runbook.zh-CN.md](operations-runbook.zh-CN.md)
-- [one-click-bootstrap.zh-CN.md](../setup-guides/one-click-bootstrap.zh-CN.md)
-- [channels-reference.zh-CN.md](../reference/api/channels-reference.zh-CN.md)
-- [network-deployment.zh-CN.md](network-deployment.zh-CN.md)
+- [operations-runbook.md](operations-runbook.md)
+- [one-click-bootstrap.md](../setup-guides/one-click-bootstrap.md)
+- [channels-reference.md](../reference/api/channels-reference.md)
+- [network-deployment.md](network-deployment.md)

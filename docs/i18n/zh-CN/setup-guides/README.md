@@ -4,10 +4,10 @@
 
 ## 开始路径
 
-1. 主概述和快速入门：[../../../../README.zh-CN.md](../../../../README.zh-CN.md)
-2. 一键安装和双引导模式：[one-click-bootstrap.zh-CN.md](one-click-bootstrap.zh-CN.md)
-3. macOS 上的更新或卸载：[macos-update-uninstall.zh-CN.md](macos-update-uninstall.zh-CN.md)
-4. 按任务查找命令：[../reference/cli/commands-reference.zh-CN.md](../reference/cli/commands-reference.zh-CN.md)
+1. 主概述和快速入门：[../../../../README.md](../../../../README.md)
+2. 一键安装和双引导模式：[one-click-bootstrap.md](one-click-bootstrap.md)
+3. macOS 上的更新或卸载：[macos-update-uninstall.md](macos-update-uninstall.md)
+4. 按任务查找命令：[../reference/cli/commands-reference.md](../reference/cli/commands-reference.md)
 
 ## 选择你的路径
 
@@ -17,7 +17,7 @@
 | 我想要引导式提示 | `zeroclaw onboard` |
 | 配置已存在，仅修复渠道配置 | `zeroclaw onboard --channels-only` |
 | 配置已存在，我需要完全覆盖 | `zeroclaw onboard --force` |
-| 使用订阅认证 | 查看 [订阅认证](../../../../README.zh-CN.md#subscription-auth-openai-codex--claude-code) |
+| 使用订阅认证 | 查看 [订阅认证](../../../../README.md#subscription-auth-openai-codex--claude-code) |
 
 ## 引导和验证
 
@@ -29,6 +29,6 @@
 
 ## 下一步
 
-- 运行时操作：[../ops/README.zh-CN.md](../ops/README.zh-CN.md)
-- 参考目录：[../reference/README.zh-CN.md](../reference/README.zh-CN.md)
-- macOS 生命周期任务：[macos-update-uninstall.zh-CN.md](macos-update-uninstall.zh-CN.md)
+- 运行时操作：[../ops/README.md](../ops/README.md)
+- 参考目录：[../reference/README.md](../reference/README.md)
+- macOS 生命周期任务：[macos-update-uninstall.md](macos-update-uninstall.md)

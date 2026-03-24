@@ -4,7 +4,7 @@ ZeroClaw 的架构是特征（trait）驱动和模块化的。
 要添加新的提供商、渠道、工具或内存后端，实现对应的特征并在工厂模块中注册即可。
 
 本页面包含每个核心扩展点的最小可运行示例。
-如需分步集成检查清单，请参见 [change-playbooks.md](./change-playbooks.zh-CN.md)。
+如需分步集成检查清单，请参见 [change-playbooks.md](./change-playbooks.md)。
 
 > **权威来源：** 特征定义位于 `src/*/traits.rs`。
 > 如果此处的示例与特征文件冲突，以特征文件为准。
@@ -404,4 +404,4 @@ impl Memory for InMemoryBackend {
 3. 在 `src/config/schema.rs` 中添加任何需要的配置键。
 4. 为工厂接线和错误路径编写聚焦的测试。
 
-每种扩展类型的完整检查清单请参见 [change-playbooks.md](./change-playbooks.zh-CN.md)。
+每种扩展类型的完整检查清单请参见 [change-playbooks.md](./change-playbooks.md)。

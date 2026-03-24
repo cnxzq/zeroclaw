@@ -107,6 +107,6 @@ pkill -f zeroclaw
 
 ## 相关文档
 
-- [一键安装引导](one-click-bootstrap.zh-CN.md)
-- [命令参考](../reference/cli/commands-reference.zh-CN.md)
-- [故障排除](../ops/troubleshooting.zh-CN.md)
+- [一键安装引导](one-click-bootstrap.md)
+- [命令参考](../reference/cli/commands-reference.md)
+- [故障排除](../ops/troubleshooting.md)

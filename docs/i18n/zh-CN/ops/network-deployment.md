@@ -299,7 +299,7 @@ sudo zeroclaw service uninstall
 
 ## 8. 参考文档
 
-- [channels-reference.zh-CN.md](../reference/api/channels-reference.zh-CN.md) — 渠道配置概述
-- [matrix-e2ee-guide.zh-CN.md](../security/matrix-e2ee-guide.zh-CN.md) — Matrix 安装和加密房间故障排除
-- [hardware-peripherals-design.zh-CN.md](../hardware/hardware-peripherals-design.zh-CN.md) — 外围设备设计
-- [adding-boards-and-tools.zh-CN.md](../contributing/adding-boards-and-tools.zh-CN.md) — 硬件安装和添加板卡
+- [channels-reference.md](../reference/api/channels-reference.md) — 渠道配置概述
+- [matrix-e2ee-guide.md](../security/matrix-e2ee-guide.md) — Matrix 安装和加密房间故障排除
+- [hardware-peripherals-design.md](../hardware/hardware-peripherals-design.md) — 外围设备设计
+- [adding-boards-and-tools.md](../contributing/adding-boards-and-tools.md) — 硬件安装和添加板卡

@@ -304,8 +304,8 @@ pub trait Peripheral: Send + Sync {
 
 ## 12. 相关文档
 
-- [adding-boards-and-tools.md](../contributing/adding-boards-and-tools.zh-CN.md) — 如何添加开发板和数据手册
-- [network-deployment.md](../ops/network-deployment.zh-CN.md) — 树莓派和网络部署
+- [adding-boards-and-tools.md](../contributing/adding-boards-and-tools.md) — 如何添加开发板和数据手册
+- [network-deployment.md](../ops/network-deployment.md) — 树莓派和网络部署
 
 ## 13. 参考
 

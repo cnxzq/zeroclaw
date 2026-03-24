@@ -4,11 +4,11 @@
 
 ## 核心运维
 
-- 日常运行手册：[./operations-runbook.zh-CN.md](./operations-runbook.zh-CN.md)
-- 发布手册：[../contributing/release-process.zh-CN.md](../contributing/release-process.zh-CN.md)
-- 故障排除矩阵：[./troubleshooting.zh-CN.md](./troubleshooting.zh-CN.md)
-- 安全网络/网关部署：[./network-deployment.zh-CN.md](./network-deployment.zh-CN.md)
-- Mattermost 安装（特定渠道）：[../setup-guides/mattermost-setup.zh-CN.md](../setup-guides/mattermost-setup.zh-CN.md)
+- 日常运行手册：[./operations-runbook.md](./operations-runbook.md)
+- 发布手册：[../contributing/release-process.md](../contributing/release-process.md)
+- 故障排除矩阵：[./troubleshooting.md](./troubleshooting.md)
+- 安全网络/网关部署：[./network-deployment.md](./network-deployment.md)
+- Mattermost 安装（特定渠道）：[../setup-guides/mattermost-setup.md](../setup-guides/mattermost-setup.md)
 
 ## 通用流程
 
@@ -20,5 +20,5 @@
 
 ## 相关文档
 
-- 配置参考：[../reference/api/config-reference.zh-CN.md](../reference/api/config-reference.zh-CN.md)
-- 安全合集：[../security/README.zh-CN.md](../security/README.zh-CN.md)
+- 配置参考：[../reference/api/config-reference.md](../reference/api/config-reference.md)
+- 安全合集：[../security/README.md](../security/README.md)

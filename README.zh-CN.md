@@ -85,8 +85,8 @@ ZeroClaw 是一个运行在你自己设备上的个人AI助手。它在你已经
 
 模型说明：虽然支持许多提供者/模型，但为获得最佳体验，请使用你可用的最强最新一代模型。参见[引导设置](#快速开始简版)。
 
-模型配置 + CLI：[提供者参考](docs/reference/api/providers-reference.md)
-认证配置轮换（OAuth 与 API 密钥）+ 故障转移：[模型故障转移](docs/reference/api/providers-reference.md)
+模型配置 + CLI：[提供者参考](docs/i18n/zh-CN/reference/api/providers-reference.md)
+认证配置轮换（OAuth 与 API 密钥）+ 故障转移：[模型故障转移](docs/i18n/zh-CN/reference/api/providers-reference.md)
 
 ## 安装（推荐）
 
@@ -334,7 +334,7 @@ default_provider = "anthropic"
 api_key = "sk-ant-..."
 ```
 
-完整配置参考：[docs/reference/api/config-reference.md](docs/reference/api/config-reference.md)。
+完整配置参考：[docs/i18n/zh-CN/reference/api/config-reference.md](docs/i18n/zh-CN/reference/api/config-reference.md)。
 
 ### 频道配置
 
@@ -384,7 +384,7 @@ phone_number = "+1234567890"
 kind = "cloudflare"  # or "tailscale", "ngrok", "openvpn", "custom", "none"
 ```
 
-详情：[频道参考](docs/reference/api/channels-reference.md) · [配置参考](docs/reference/api/config-reference.md)
+详情：[频道参考](docs/i18n/zh-CN/reference/api/channels-reference.md) · [配置参考](docs/i18n/zh-CN/reference/api/config-reference.md)
 
 ### 运行时支持（当前）
 
@@ -502,7 +502,7 @@ source <(zeroclaw completions bash)
 zeroclaw completions zsh > ~/.zfunc/_zeroclaw
 ```
 
-完整命令参考：[docs/reference/cli/commands-reference.md](docs/reference/cli/commands-reference.md)
+完整命令参考：[docs/i18n/zh-CN/reference/cli/commands-reference.md](docs/i18n/zh-CN/reference/cli/commands-reference.md)
 
 <!-- markdownlint-disable MD001 MD024 -->
 
@@ -624,34 +624,34 @@ curl -LsSf https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/insta
 - 使用[配置参考](docs/reference/api/config-reference.md)查阅所有键和示例。
 - 按照[运维手册](docs/ops/operations-runbook.md)运行 Gateway。
 - 按照 [ZeroClaw Onboard](#快速开始简版) 进行引导设置。
-- 使用[故障排除指南](docs/ops/troubleshooting.md)调试常见故障。
-- 在暴露任何内容之前查看[安全指南](docs/security/README.md)。
+- 使用[故障排除指南](docs/i18n/zh-CN/ops/troubleshooting.md)调试常见故障。
+- 在暴露任何内容之前查看[安全指南](docs/i18n/zh-CN/security/README.md)。
 
 ### 参考文档
 
 - 文档中心：[docs/README.md](docs/README.md)
-- 统一文档目录：[docs/SUMMARY.md](docs/SUMMARY.md)
-- 命令参考：[docs/reference/cli/commands-reference.md](docs/reference/cli/commands-reference.md)
-- 配置参考：[docs/reference/api/config-reference.md](docs/reference/api/config-reference.md)
-- 提供者参考：[docs/reference/api/providers-reference.md](docs/reference/api/providers-reference.md)
-- 频道参考：[docs/reference/api/channels-reference.md](docs/reference/api/channels-reference.md)
-- 运维手册：[docs/ops/operations-runbook.md](docs/ops/operations-runbook.md)
-- 故障排除：[docs/ops/troubleshooting.md](docs/ops/troubleshooting.md)
+- 统一文档目录：[docs/SUMMARY.zh-CN.md](docs/SUMMARY.zh-CN.md)
+- 命令参考：[docs/i18n/zh-CN/reference/cli/commands-reference.md](docs/i18n/zh-CN/reference/cli/commands-reference.md)
+- 配置参考：[docs/i18n/zh-CN/reference/api/config-reference.md](docs/i18n/zh-CN/reference/api/config-reference.md)
+- 提供者参考：[docs/i18n/zh-CN/reference/api/providers-reference.md](docs/i18n/zh-CN/reference/api/providers-reference.md)
+- 频道参考：[docs/i18n/zh-CN/reference/api/channels-reference.md](docs/i18n/zh-CN/reference/api/channels-reference.md)
+- 运维手册：[docs/i18n/zh-CN/ops/operations-runbook.md](docs/i18n/zh-CN/ops/operations-runbook.md)
+- 故障排除：[docs/i18n/zh-CN/ops/troubleshooting.md](docs/i18n/zh-CN/ops/troubleshooting.md)
 
 ### 协作文档
 
 - 贡献指南：[CONTRIBUTING.md](CONTRIBUTING.md)
-- PR 工作流策略：[docs/contributing/pr-workflow.md](docs/contributing/pr-workflow.md)
-- CI 工作流指南：[docs/contributing/ci-map.md](docs/contributing/ci-map.md)
-- 审查员手册：[docs/contributing/reviewer-playbook.md](docs/contributing/reviewer-playbook.md)
+- PR 工作流策略：[docs/i18n/zh-CN/contributing/pr-workflow.md](docs/i18n/zh-CN/contributing/pr-workflow.md)
+- CI 工作流指南：[docs/i18n/zh-CN/contributing/ci-map.md](docs/i18n/zh-CN/contributing/ci-map.md)
+- 审查员手册：[docs/i18n/zh-CN/contributing/reviewer-playbook.md](docs/i18n/zh-CN/contributing/reviewer-playbook.md)
 - 安全披露策略：[SECURITY.md](SECURITY.md)
-- 文档模板：[docs/contributing/doc-template.md](docs/contributing/doc-template.md)
+- 文档模板：[docs/i18n/zh-CN/contributing/doc-template.md](docs/i18n/zh-CN/contributing/doc-template.md)
 
 ### 部署 + 运维
 
-- 网络部署指南：[docs/ops/network-deployment.md](docs/ops/network-deployment.md)
-- 代理代理手册：[docs/ops/proxy-agent-playbook.md](docs/ops/proxy-agent-playbook.md)
-- 硬件指南：[docs/hardware/README.md](docs/hardware/README.md)
+- 网络部署指南：[docs/i18n/zh-CN/ops/network-deployment.md](docs/i18n/zh-CN/ops/network-deployment.md)
+- 代理代理手册：[docs/i18n/zh-CN/ops/proxy-agent-playbook.md](docs/i18n/zh-CN/ops/proxy-agent-playbook.md)
+- 硬件指南：[docs/i18n/zh-CN/hardware/README.md](docs/i18n/zh-CN/hardware/README.md)
 
 ## Smooth Crab 🦀
 
@@ -681,9 +681,9 @@ ZeroClaw 为 smooth crab 🦀 而构建，一个快速高效的 AI 助手。由 
 
 ZeroClaw 新手？寻找标记为 [`good first issue`](https://github.com/zeroclaw-labs/zeroclaw/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) 的问题 — 参阅我们的[贡献指南](CONTRIBUTING.md#first-time-contributors)了解如何开始。欢迎 AI/vibe-coded PR！🤖
 
-参见 [CONTRIBUTING.md](CONTRIBUTING.md) 和 [CLA.md](docs/contributing/cla.md)。实现一个 trait，提交 PR：
+参见 [CONTRIBUTING.md](CONTRIBUTING.md) 和 [CLA.md](docs/i18n/zh-CN/contributing/cla.md)。实现一个 trait，提交 PR：
 
-- CI 工作流指南：[docs/contributing/ci-map.md](docs/contributing/ci-map.md)
+- CI 工作流指南：[docs/i18n/zh-CN/contributing/ci-map.md](docs/i18n/zh-CN/contributing/ci-map.md)
 - 新 `Provider` → `src/providers/`
 - 新 `Channel` → `src/channels/`
 - 新 `Observer` → `src/observability/`
@@ -702,7 +702,7 @@ ZeroClaw 新手？寻找标记为 [`good first issue`](https://github.com/zerocl
 
 > https://github.com/zeroclaw-labs/zeroclaw
 
-任何其他声称是"ZeroClaw"或暗示与 ZeroClaw Labs 有关联的仓库、组织、域名或包都是**未经授权的，与本项目无关**。已知的未授权分支将在 [TRADEMARK.md](docs/maintainers/trademark.md) 中列出。
+任何其他声称是"ZeroClaw"或暗示与 ZeroClaw Labs 有关联的仓库、组织、域名或包都是**未经授权的，与本项目无关**。已知的未授权分支将在 [TRADEMARK.md](docs/i18n/zh-CN/maintainers/trademark.md) 中列出。
 
 如果你遇到冒充或商标滥用，请[提交问题](https://github.com/zeroclaw-labs/zeroclaw/issues)。
 
@@ -717,11 +717,11 @@ ZeroClaw 采用双重许可，以实现最大开放性和贡献者保护：
 | [MIT](LICENSE-MIT) | 开源、研究、学术、个人使用 |
 | [Apache 2.0](LICENSE-APACHE) | 专利保护、机构、商业部署 |
 
-你可以选择任一许可证。**贡献者自动授予两种许可证的权利** — 参见 [CLA.md](docs/contributing/cla.md) 了解完整的贡献者协议。
+你可以选择任一许可证。**贡献者自动授予两种许可证的权利** — 参见 [CLA.md](docs/i18n/zh-CN/contributing/cla.md) 了解完整的贡献者协议。
 
 ### 商标
 
-**ZeroClaw** 名称和标志是 ZeroClaw Labs 的商标。此许可证不授予使用它们暗示背书或关联的权限。参见 [TRADEMARK.md](docs/maintainers/trademark.md) 了解允许和禁止的使用。
+**ZeroClaw** 名称和标志是 ZeroClaw Labs 的商标。此许可证不授予使用它们暗示背书或关联的权限。参见 [TRADEMARK.md](docs/i18n/zh-CN/maintainers/trademark.md) 了解允许和禁止的使用。
 
 ### 贡献者保护
 

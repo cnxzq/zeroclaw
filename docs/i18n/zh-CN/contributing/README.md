@@ -5,12 +5,12 @@
 ## 核心政策
 
 - 贡献指南：[../../../../CONTRIBUTING.md](../../../../CONTRIBUTING.md)
-- PR 工作流规则：[./pr-workflow.zh-CN.md](./pr-workflow.zh-CN.md)
-- 评审者手册：[./reviewer-playbook.zh-CN.md](./reviewer-playbook.zh-CN.md)
-- CI 地图和所有权：[./ci-map.zh-CN.md](./ci-map.zh-CN.md)
-- Actions 源政策：[./actions-source-policy.zh-CN.md](./actions-source-policy.zh-CN.md)
-- 扩展示例：[./extension-examples.zh-CN.md](./extension-examples.zh-CN.md)
-- 测试指南：[./testing.zh-CN.md](./testing.zh-CN.md)
+- PR 工作流规则：[./pr-workflow.md](./pr-workflow.md)
+- 评审者手册：[./reviewer-playbook.md](./reviewer-playbook.md)
+- CI 地图和所有权：[./ci-map.md](./ci-map.md)
+- Actions 源政策：[./actions-source-policy.md](./actions-source-policy.md)
+- 扩展示例：[./extension-examples.md](./extension-examples.md)
+- 测试指南：[./testing.md](./testing.md)
 
 ## 建议阅读顺序
 

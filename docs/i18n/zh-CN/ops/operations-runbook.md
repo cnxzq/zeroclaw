@@ -13,7 +13,7 @@
 - 安全发布和回滚
 - 事件分类和恢复
 
-首次安装请从 [one-click-bootstrap.zh-CN.md](../setup-guides/one-click-bootstrap.zh-CN.md) 开始。
+首次安装请从 [one-click-bootstrap.md](../setup-guides/one-click-bootstrap.md) 开始。
 
 ## 运行时模式
 
@@ -122,7 +122,7 @@ zeroclaw service start
 
 ## 相关文档
 
-- [one-click-bootstrap.zh-CN.md](../setup-guides/one-click-bootstrap.zh-CN.md)
-- [troubleshooting.zh-CN.md](./troubleshooting.zh-CN.md)
-- [config-reference.zh-CN.md](../reference/api/config-reference.zh-CN.md)
-- [commands-reference.zh-CN.md](../reference/cli/commands-reference.zh-CN.md)
+- [one-click-bootstrap.md](../setup-guides/one-click-bootstrap.md)
+- [troubleshooting.md](./troubleshooting.md)
+- [config-reference.md](../reference/api/config-reference.md)
+- [commands-reference.md](../reference/cli/commands-reference.md)

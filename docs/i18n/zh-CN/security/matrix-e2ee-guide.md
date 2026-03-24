@@ -134,8 +134,8 @@ curl -sS -H \"Authorization: Bearer $MATRIX_TOKEN\" \
 
 ## 6. 相关文档
 
-- [渠道参考](../reference/api/channels-reference.zh-CN.md)
-- [操作日志关键词附录](../reference/api/channels-reference.zh-CN.md#7-操作附录日志关键词矩阵)
-- [网络部署](../ops/network-deployment.zh-CN.md)
-- [不可知安全](./agnostic-security.zh-CN.md)
-- [评审者手册](../contributing/reviewer-playbook.zh-CN.md)
+- [渠道参考](../reference/api/channels-reference.md)
+- [操作日志关键词附录](../reference/api/channels-reference.md#7-操作附录日志关键词矩阵)
+- [网络部署](../ops/network-deployment.md)
+- [不可知安全](./agnostic-security.md)
+- [评审者手册](../contributing/reviewer-playbook.md)

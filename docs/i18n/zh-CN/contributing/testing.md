@@ -146,4 +146,4 @@ use crate::support::helpers::{build_agent, text_response, tool_response};
 | `manual/telegram/` | Telegram 集成测试套件、冒烟测试、消息生成器 |
 | `manual/test_dockerignore.sh` | 验证 `.dockerignore` 排除敏感路径 |
 
-Telegram 特定的测试细节请参见 [testing-telegram.md](./testing-telegram.zh-CN.md)。
+Telegram 特定的测试细节请参见 [testing-telegram.md](./testing-telegram.md)。

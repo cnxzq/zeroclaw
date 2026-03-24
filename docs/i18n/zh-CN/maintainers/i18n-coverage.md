@@ -21,7 +21,7 @@
 | 语言区域 | 根 README | 规范文档中心 | 命令参考 | 配置参考 | 故障排除 | 状态 |
 |---|---|---|---|---|---|---|
 | `en` | `README.md` | `docs/README.md` | `docs/commands-reference.md` | `docs/config-reference.md` | `docs/troubleshooting.md` | 权威来源 |
-| `zh-CN` | `README.zh-CN.md` | `docs/README.zh-CN.md` | - | - | - | 中心级本地化 |
+| `zh-CN` | `README.md` | `docs/README.md` | - | - | - | 中心级本地化 |
 | `ja` | `README.ja.md` | `docs/README.ja.md` | - | - | - | 中心级本地化 |
 | `ru` | `README.ru.md` | `docs/README.ru.md` | - | - | - | 中心级本地化 |
 | `fr` | `README.fr.md` | `docs/README.fr.md` | - | - | - | 中心级本地化 |

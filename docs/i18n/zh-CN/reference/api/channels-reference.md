@@ -3,15 +3,15 @@
 本文档是 ZeroClaw 渠道配置的权威参考。
 
 对于加密 Matrix 房间，还请阅读专用操作手册：
-- [Matrix E2EE（端到端加密）指南](../../security/matrix-e2ee-guide.zh-CN.md)
+- [Matrix E2EE（端到端加密）指南](../../security/matrix-e2ee-guide.md)
 
 ## 快速路径
 
 - 需要按渠道查看完整配置参考：跳转到 [按渠道配置示例](#4-按渠道配置示例)。
 - 需要无响应诊断流程：跳转到 [故障排除清单](#6-故障排除清单)。
-- 需要 Matrix 加密房间帮助：使用 [Matrix E2EE 指南](../../security/matrix-e2ee-guide.zh-CN.md)。
-- 需要 Nextcloud Talk 机器人安装：使用 [Nextcloud Talk 安装指南](../../setup-guides/nextcloud-talk-setup.zh-CN.md)。
-- 需要部署/网络假设（轮询 vs webhook）：使用 [网络部署](../../ops/network-deployment.zh-CN.md)。
+- 需要 Matrix 加密房间帮助：使用 [Matrix E2EE 指南](../../security/matrix-e2ee-guide.md)。
+- 需要 Nextcloud Talk 机器人安装：使用 [Nextcloud Talk 安装指南](../../setup-guides/nextcloud-talk-setup.md)。
+- 需要部署/网络假设（轮询 vs webhook）：使用 [网络部署](../../ops/network-deployment.md)。
 
 ## 常见问题：Matrix 安装通过但无回复
 
@@ -211,7 +211,7 @@ room_id = \"!room:matrix.example.com\"       # 或房间别名（#ops:matrix.exa
 allowed_users = [\"*\"]
 ```
 
-加密房间故障排除请参见 [Matrix E2EE 指南](../../security/matrix-e2ee-guide.zh-CN.md)。
+加密房间故障排除请参见 [Matrix E2EE 指南](../../security/matrix-e2ee-guide.md)。
 
 ### 4.6 Signal
 
@@ -402,7 +402,7 @@ allowed_users = [\"*\"]
 - 签名验证使用 `X-Nextcloud-Talk-Random` 和 `X-Nextcloud-Talk-Signature`。
 - 如果设置了 `webhook_secret`，无效签名会被拒绝并返回 `401`。
 - `ZEROCLAW_NEXTCLOUD_TALK_WEBHOOK_SECRET` 会覆盖配置中的密钥。
-- 完整操作手册请参见 [nextcloud-talk-setup.md](../../setup-guides/nextcloud-talk-setup.zh-CN.md)。
+- 完整操作手册请参见 [nextcloud-talk-setup.md](../../setup-guides/nextcloud-talk-setup.md)。
 
 ### 4.16 Linq
 
@@ -461,7 +461,7 @@ zeroclaw daemon
 5. 配置更改后重启 `zeroclaw daemon`。
 
 专门针对 Matrix 加密房间，请使用：
-- [Matrix E2EE 指南](../../security/matrix-e2ee-guide.zh-CN.md)
+- [Matrix E2EE 指南](../../security/matrix-e2ee-guide.md)
 
 ---
 

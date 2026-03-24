@@ -59,7 +59,7 @@
 
 ## 6. 无商标权利
 
-本 CLA 不授予你使用 ZeroClaw 名称、商标、服务标记或徽标的任何权利。商标政策请参见 [trademark.md](../maintainers/trademark.zh-CN.md)。
+本 CLA 不授予你使用 ZeroClaw 名称、商标、服务标记或徽标的任何权利。商标政策请参见 [trademark.md](../maintainers/trademark.md)。
 
 ---
 

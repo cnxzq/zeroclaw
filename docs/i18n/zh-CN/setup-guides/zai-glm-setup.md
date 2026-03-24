@@ -12,7 +12,7 @@ ZeroClaw 开箱即用支持以下 Z.AI 别名和端点：
 | `zai` | `https://api.z.ai/api/coding/paas/v4` | 全球端点 |
 | `zai-cn` | `https://open.bigmodel.cn/api/paas/v4` | 中国区端点 |
 
-如果你需要自定义基础 URL，请查看 [`../contributing/custom-providers.zh-CN.md`](../contributing/custom-providers.zh-CN.md)。
+如果你需要自定义基础 URL，请查看 [`../contributing/custom-providers.md`](../contributing/custom-providers.md)。
 
 ## 安装
 
@@ -137,6 +137,6 @@ curl -s \"https://api.z.ai/api/coding/paas/v4/models\" \
 
 ## 相关文档
 
-- [ZeroClaw 说明文档](../../../README.zh-CN.md)
-- [自定义提供商端点](../contributing/custom-providers.zh-CN.md)
+- [ZeroClaw 说明文档](../../../README.md)
+- [自定义提供商端点](../contributing/custom-providers.md)
 - [贡献指南](../../../../CONTRIBUTING.md)

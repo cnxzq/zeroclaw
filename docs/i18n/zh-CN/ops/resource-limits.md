@@ -3,7 +3,7 @@
 > ⚠️ **状态：提案 / 路线图**
 >
 > 本文档描述提议的实现方法，可能包含假设的命令或配置。
-> 如需了解当前运行时行为，请参见 [config-reference.zh-CN.md](../reference/api/config-reference.zh-CN.md)、[operations-runbook.zh-CN.md](operations-runbook.zh-CN.md) 和 [troubleshooting.zh-CN.md](troubleshooting.zh-CN.md)。
+> 如需了解当前运行时行为，请参见 [config-reference.md](../reference/api/config-reference.md)、[operations-runbook.md](operations-runbook.md) 和 [troubleshooting.md](troubleshooting.md)。
 
 ## 问题
 

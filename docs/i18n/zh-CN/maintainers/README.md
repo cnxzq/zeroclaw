@@ -4,7 +4,7 @@
 
 ## 当前快照
 
-- [project-triage-snapshot-2026-02-18.md](project-triage-snapshot-2026-02-18.zh-CN.md)
+- [project-triage-snapshot-2026-02-18.md](project-triage-snapshot-2026-02-18.md)
 
 ## 范围
 
@@ -14,4 +14,4 @@
 - 与代码变更一起优先安排文档维护
 - 跟踪随时间变化的 PR/Issue 压力
 
-对于稳定的文档分类（无时间限制），请使用 [docs-inventory.md](docs-inventory.zh-CN.md)。
+对于稳定的文档分类（无时间限制），请使用 [docs-inventory.md](docs-inventory.md)。

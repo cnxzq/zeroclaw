@@ -4,10 +4,10 @@ SOP 是由 `SopEngine` 执行的确定性流程。它们提供显式的触发器
 
 ## 快速路径
 
-- **连接事件：** [连接与扇入](connectivity.zh-CN.md) — 通过 MQTT、webhook、cron 或外围设备触发 SOP。
-- **编写 SOP：** [语法参考](syntax.zh-CN.md) — 所需的文件布局和触发器/步骤语法。
-- **监控：** [可观测性与审计](observability.zh-CN.md) — 运行状态和审计条目的存储位置。
-- **示例：** [食谱](cookbook.zh-CN.md) — 可复用的 SOP 模式。
+- **连接事件：** [连接与扇入](connectivity.md) — 通过 MQTT、webhook、cron 或外围设备触发 SOP。
+- **编写 SOP：** [语法参考](syntax.md) — 所需的文件布局和触发器/步骤语法。
+- **监控：** [可观测性与审计](observability.md) — 运行状态和审计条目的存储位置。
+- **示例：** [食谱](cookbook.md) — 可复用的 SOP 模式。
 
 ## 1. 运行时契约（当前）
 
@@ -61,4 +61,4 @@ graph LR
 
 4. 通过配置的事件源触发运行，或在代理轮次中使用 `sop_execute` 手动触发。
 
-有关触发器路由和认证详情，请参见 [连接](connectivity.zh-CN.md)。
+有关触发器路由和认证详情，请参见 [连接](connectivity.md)。

@@ -103,14 +103,14 @@
 ## 维护规则
 
 - 保持合并阻塞检查的确定性和可复现性（适用时使用 `--locked`）。
-- 发布节奏和标签规范遵循 [`docs/contributing/release-process.md`](./release-process.zh-CN.md) 的"发布前验证"要求。
+- 发布节奏和标签规范遵循 [`docs/contributing/release-process.md`](./release-process.md) 的"发布前验证"要求。
 - 保持 `.github/workflows/ci-run.yml`、`dev/ci.sh` 和 `.githooks/pre-push` 中的 Rust 质量政策一致（`./scripts/ci/rust_quality_gate.sh` + `./scripts/ci/rust_strict_delta_gate.sh`）。
 - 使用 `./scripts/ci/rust_strict_delta_gate.sh`（或 `./dev/ci.sh lint-delta`）作为变更 Rust 行的增量严格合并门控。
 - 定期通过 `./scripts/ci/rust_quality_gate.sh --strict` 运行完整严格代码检查审计（例如通过 `./dev/ci.sh lint-strict`），并在聚焦的 PR 中跟踪清理工作。
 - 通过 `./scripts/ci/docs_quality_gate.sh` 保持文档 Markdown 门控的增量性（阻塞变更行问题，单独报告基线问题）。
 - 通过 `./scripts/ci/collect_changed_links.py` + lychee 保持文档链接门控的增量性（仅检查变更行上添加的链接）。
 - 优先使用显式工作流权限（最小权限原则）。
-- 保持 Actions 源政策限制为已批准的白名单模式（参见 [`docs/contributing/actions-source-policy.md`](./actions-source-policy.zh-CN.md)）。
+- 保持 Actions 源政策限制为已批准的白名单模式（参见 [`docs/contributing/actions-source-policy.md`](./actions-source-policy.md)）。
 - 实际可行时为耗时工作流使用路径过滤器。
 - 保持文档质量检查低噪音（增量 Markdown + 增量新增链接检查）。
 - 保持依赖更新量可控（分组 + PR 限制）。

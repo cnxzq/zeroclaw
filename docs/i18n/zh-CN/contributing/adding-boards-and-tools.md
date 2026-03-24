@@ -90,7 +90,7 @@ cargo build --features hardware,rag-pdf
 2. **添加到配置** — `zeroclaw peripheral add my-board /dev/ttyUSB0`
 3. **实现外设**（可选）—— 对于自定义协议，在 `src/peripherals/` 中实现 `Peripheral` 特征，并在 `create_peripheral_tools` 中注册。
 
-完整设计请参见 [`docs/hardware/hardware-peripherals-design.md`](../hardware/hardware-peripherals-design.zh-CN.md)。
+完整设计请参见 [`docs/hardware/hardware-peripherals-design.md`](../hardware/hardware-peripherals-design.md)。
 
 ## 添加自定义工具
 

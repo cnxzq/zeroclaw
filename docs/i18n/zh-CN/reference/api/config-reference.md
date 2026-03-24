@@ -547,7 +547,7 @@ priority = 5
 - 同时支持 NIP-04（传统加密 DM）和 NIP-17（礼物包装私有消息）。回复自动镜像发送者的协议。
 - `private_key` 是高价值密钥；生产环境中保持 `secrets.encrypt = true`（默认）。
 
-详细的渠道矩阵和白名单行为请参见 [channels-reference.zh-CN.md](channels-reference.zh-CN.md)。
+详细的渠道矩阵和白名单行为请参见 [channels-reference.md](channels-reference.md)。
 
 ### `[channels_config.whatsapp]`
 
@@ -593,7 +593,7 @@ WhatsApp Web 模式（原生客户端）：
 - Webhook 端点是 `POST /linq`。
 - 设置时 `ZEROCLAW_LINQ_SIGNING_SECRET` 覆盖 `signing_secret`。
 - 签名使用 `X-Webhook-Signature` 和 `X-Webhook-Timestamp` 头；过期时间戳（>300秒）会被拒绝。
-- 完整配置示例请参见 [channels-reference.zh-CN.md](channels-reference.zh-CN.md)。
+- 完整配置示例请参见 [channels-reference.md](channels-reference.md)。
 
 ### `[channels_config.nextcloud_talk]`
 
@@ -610,7 +610,7 @@ WhatsApp Web 模式（原生客户端）：
 
 - Webhook 端点是 `POST /nextcloud-talk`。
 - 设置时 `ZEROCLAW_NEXTCLOUD_TALK_WEBHOOK_SECRET` 覆盖 `webhook_secret`。
-- 安装和故障排除请参见 [nextcloud-talk-setup.zh-CN.md](../../setup-guides/nextcloud-talk-setup.zh-CN.md)。
+- 安装和故障排除请参见 [nextcloud-talk-setup.md](../../setup-guides/nextcloud-talk-setup.md)。
 
 ## `[hardware]`
 
@@ -629,7 +629,7 @@ WhatsApp Web 模式（原生客户端）：
 
 - USB 串口连接使用 `transport = \"serial\"` 搭配 `serial_port`。
 - 调试探针烧录（例如 ST-Link）使用 `transport = \"probe\"` 搭配 `probe_target`。
-- 协议详情请参见 [hardware-peripherals-design.zh-CN.md](../../hardware/hardware-peripherals-design.zh-CN.md)。
+- 协议详情请参见 [hardware-peripherals-design.md](../../hardware/hardware-peripherals-design.md)。
 
 ## `[peripherals]`
 
@@ -669,7 +669,7 @@ transport = \"native\"
 注意事项：
 
 - 将按板卡命名的 `.md`/`.txt` 数据手册文件（例如 `nucleo-f401re.md`、`rpi-gpio.md`）放在 `datasheet_dir` 中用于 RAG 检索。
-- 板卡协议和固件说明请参见 [hardware-peripherals-design.zh-CN.md](../../hardware/hardware-peripherals-design.zh-CN.md)。
+- 板卡协议和固件说明请参见 [hardware-peripherals-design.md](../../hardware/hardware-peripherals-design.md)。
 
 ## 安全相关默认值
 
@@ -690,7 +690,7 @@ zeroclaw service restart
 
 ## 相关文档
 
-- [channels-reference.zh-CN.md](channels-reference.zh-CN.md)
-- [providers-reference.zh-CN.md](providers-reference.zh-CN.md)
-- [operations-runbook.zh-CN.md](../../ops/operations-runbook.zh-CN.md)
-- [troubleshooting.zh-CN.md](../../ops/troubleshooting.zh-CN.md)
+- [channels-reference.md](channels-reference.md)
+- [providers-reference.md](providers-reference.md)
+- [operations-runbook.md](../../ops/operations-runbook.md)
+- [troubleshooting.md](../../ops/troubleshooting.md)

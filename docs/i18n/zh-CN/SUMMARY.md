@@ -9,4 +9,4 @@
 - 中文文档中心：[README.md](README.md)
 - 英文文档中心：[../../README.md](../../README.md)
 - 英文统一目录：[../../SUMMARY.md](../../SUMMARY.md)
-- 中文统一目录：[../../../SUMMARY.zh-CN.md](../../../SUMMARY.zh-CN.md)
+- 中文统一目录：[../../../docs/SUMMARY.zh-CN.md](../../../docs/SUMMARY.zh-CN.md)

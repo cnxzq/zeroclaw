@@ -11,9 +11,9 @@
 
 相关参考：
 
-- [`docs/README.md`](../../../README.zh-CN.md) 了解文档分类和导航。
-- [`ci-map.md`](./ci-map.zh-CN.md) 了解各工作流的所有者、触发条件和分类流程。
-- [`reviewer-playbook.md`](./reviewer-playbook.zh-CN.md) 了解评审者日常执行指南。
+- [`docs/README.md`](../../../README.md) 了解文档分类和导航。
+- [`ci-map.md`](./ci-map.md) 了解各工作流的所有者、触发条件和分类流程。
+- [`reviewer-playbook.md`](./reviewer-playbook.md) 了解评审者日常执行指南。
 
 ## 0. 摘要
 
@@ -44,7 +44,7 @@
 
 前往：
 
-- [ci-map.md](./ci-map.zh-CN.md)
+- [ci-map.md](./ci-map.md)
 - [第 4.2 节](#42-步骤b验证)
 
 ### 1.3 涉及高风险路径
@@ -55,7 +55,7 @@
 前往：
 
 - [第 9 节](#9-安全和稳定性规则)
-- [reviewer-playbook.md](./reviewer-playbook.zh-CN.md)
+- [reviewer-playbook.md](./reviewer-playbook.md)
 
 ### 1.4 PR 已被取代或重复
 
@@ -352,10 +352,10 @@
 
 ## 15. 相关文档
 
-- [README.md](../../../README.zh-CN.md) — 文档分类和导航。
-- [ci-map.md](./ci-map.zh-CN.md) — CI 工作流所有者和分类地图。
-- [reviewer-playbook.md](./reviewer-playbook.zh-CN.md) — 评审者执行模型。
-- [actions-source-policy.md](./actions-source-policy.zh-CN.md) — Action 源白名单政策。
+- [README.md](../../../README.md) — 文档分类和导航。
+- [ci-map.md](./ci-map.md) — CI 工作流所有者和分类地图。
+- [reviewer-playbook.md](./reviewer-playbook.md) — 评审者执行模型。
+- [actions-source-policy.md](./actions-source-policy.md) — Action 源白名单政策。
 
 ---
 
