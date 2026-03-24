@@ -67,11 +67,11 @@ ZeroClaw 是一个运行在你自己设备上的个人AI助手。它在你已经
 
 <p align="center">
   <a href="https://zeroclawlabs.ai">官网</a> ·
-  <a href="docs/README.md">文档</a> ·
+  <a href="docs/README.zh-CN.md">文档</a> ·
   <a href="docs/architecture.md">架构</a> ·
   <a href="#快速开始简版">入门指南</a> ·
   <a href="#从-openclaw-迁移">从 OpenClaw 迁移</a> ·
-  <a href="docs/ops/troubleshooting.md">故障排除</a> ·
+  <a href="docs/i18n/zh-CN/ops/troubleshooting.md">故障排除</a> ·
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
@@ -110,7 +110,7 @@ cd zeroclaw
 
 ## 快速开始（简版）
 
-完整新手指南（认证、配对、频道）：[入门指南](docs/setup-guides/one-click-bootstrap.md)
+完整新手指南（认证、配对、频道）：[入门指南](docs/i18n/zh-CN/setup-guides/one-click-bootstrap.md)
 
 ```bash
 # 安装 + 引导
@@ -619,10 +619,10 @@ curl -LsSf https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/insta
 
 当你完成引导流程后需要更深入的参考时使用这些文档。
 
-- 从[文档索引](docs/README.md)开始了解导航和内容分布。
+- 从[文档索引](docs/README.zh-CN.md)开始了解导航和内容分布。
 - 阅读[架构概述](docs/architecture.md)了解完整系统模型。
-- 使用[配置参考](docs/reference/api/config-reference.md)查阅所有键和示例。
-- 按照[运维手册](docs/ops/operations-runbook.md)运行 Gateway。
+- 使用[配置参考](docs/i18n/zh-CN/reference/api/config-reference.md)查阅所有键和示例。
+- 按照[运维手册](docs/i18n/zh-CN/ops/operations-runbook.md)运行 Gateway。
 - 按照 [ZeroClaw Onboard](#快速开始简版) 进行引导设置。
 - 使用[故障排除指南](docs/i18n/zh-CN/ops/troubleshooting.md)调试常见故障。
 - 在暴露任何内容之前查看[安全指南](docs/i18n/zh-CN/security/README.md)。
